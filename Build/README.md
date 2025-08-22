@@ -10,7 +10,7 @@ We reused the balls, piston, and spool with rope from the [first vacuum cannon](
 
 ![Spool of rope](/Build/IMG_20250821_160448.jpg "Spool of rope")
 
-The new parts of the build are the barrel, because the orignal acrylic one imploded after approximately 10 shots, and the mounting board, since the original was visibly reclaimed scrap.
+The new parts of the build are the barrel, because the original acrylic barrel imploded after approximately 10 shots, and the mounting board, since the original was visibly reclaimed scrap.
 
 ![Length of barrel = 132.5cm](/Build/IMG_20250821_160812.jpg "Barrel length")
 
