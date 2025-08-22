@@ -60,36 +60,15 @@ _Here you can list the outcomes of the project that you would like to hightlight
 
 We will list some best practices and good examples from projects that have used this template for their documentation.
 
-## Team
-_Even though platforms such as github show a list of user accounts for contributors for a project or repository, the past contributors or external collaborators also deserve a place here_
-
-+ Project initiator: Sanli Faez @sanlifaez
-+ Contributors:
-	+ _add a list of main contributors_
-
-
-## Get involved
-_Especially for open source projects, it is benefitial to motivate the potential users of the project to contribute back or share their feedback. Make it easy for them._
-
-Comments and suggestions on this folder structure are always welcome. Please create an issue to share your feedback or question, or if you prefer send a pull request. 
-
-Better structured projects can explain a number of options for contributors such as: 
-+ (where to start)
-+ (issue template)
-+ (direct contact)
-+ (pull requests)
-
 ## License
-_After the README, A LICENSE is the most important file in the project documentation. Without a license, there is too much uncertainty to try building anything on top of the original project._
-
 This project is released under CC0 1.0 Universal. 
 You can modify an reuse as you like.
-The project team appreciates your suggestions or examples for enhancing the repository, but your consistent documentation of your project is the best gift to the world. Hopefully, this template could make that a bit easier for you. 
+The project team appreciates your suggestions or examples for enhancing the repository.
 
 ### (How to cite:)
 _Additionally, you can specify how other can cite your project._
 
-## (Funding)
-_Be kind to your funders and mention their support visibly and consistently. They also need to show their resources are wisely spent._
+## Funding
+This project was created with the materials, tools, assistance, and funding of [Lili's Proto Lab]([url](https://www.uu.nl/en/research/lilis-proto-lab)).
 
 ![LPL sharing image](./Docs/Images/lpl_sharing.jpg)
