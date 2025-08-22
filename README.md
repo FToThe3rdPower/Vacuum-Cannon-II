@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/2ba3560a-16e3-4c3d-a25b-7bb88f1f36f8
+
+
+
 # Open Hardware Documentation Template
 An easy use folder structure and instructions for setting up a repository for open-source hardware
 
