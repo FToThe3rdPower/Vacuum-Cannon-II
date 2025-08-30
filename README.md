@@ -1,95 +1,112 @@
+# Vacuum Cannon: Rebuilt
+**Trey Grijalva**  
+*August 29, 2025*  
 
+---
 
-https://github.com/user-attachments/assets/2ba3560a-16e3-4c3d-a25b-7bb88f1f36f8
+## Abstract
+The vacuum cannon is a deceptively simple device that accelerates a projectile by evacuating air from a sealed tube, yet its dynamics involve rich fluid mechanics and shock physics. Early models, such as those by Ayars and Buchholtz (2004), treated the system with constant and simple variable acceleration approximations, predicting projectile speeds limited by the speed of sound. Subsequent experimental studies, including Schlieren imaging, revealed that shock and rarefaction waves play a crucial role in the projectile’s motion, requiring a more complete theoretical treatment such as Landau and Lifshitz’s one-dimensional gas flow treatment. Renewed efforts at Chico State sought to refine these experiments, but were interrupted by the COVID-19 pandemic. Independently, piston-driven designs popularized in the public sphere offered a practical and scalable alternative to traditional vacuum pump setups. In this work, we constructed such a cannon from recycled materials, recorded preliminary data with high-speed imaging, and identified limitations in both instrumentation and barrel durability. These results motivate future studies combining improved diagnostics with shock-physics-informed models to fully capture the behavior of vacuum cannons.
 
+---
 
+## 1. Introduction
+In 2004, two professors at California State University, Chico published the paper *Analysis of the Vacuum Cannon* [1], which explores two simple models and concludes that the ball does not exceed the speed of sound, agreeing with their hypothesis.
 
-# Open Hardware Documentation Template
-An easy use folder structure and instructions for setting up a repository for open-source hardware
+---
 
-In this repository, we present a template, short instructions, and a folder structure for a repository for describing relatively small hardware projects.  
-The main goal of this work is to simplify starting such a repository at an early stage of the project and motivate team members to regularly update their documents in a structured way. 
-To keep it agile, filling in the necessary information for the first version repository should not take more than 10 minutes. 
+## 2. Models from Ayars & Buchholtz (2004)
 
-_Instructions to fill in this file are put in italic. Remove these when you are filling descriptions relevant to your project._
+Their *zeroth-order approximation* naively assumes constant acceleration:
 
-_The introduction paragraph, right under the title, should explain the context of the project as well as why has it been initiated._
+$$
+a_0 = \frac{F}{m} = \frac{P_0 A}{m}
+$$
 
-## Main features
-_This subsection is a very brief introduction to the context and key features of your project that could be interesting for a user in search of a solution_
+where $a_0$ is the constant rate of acceleration, $P_0$ is atmospheric pressure and $A$ is the projectile’s cross-sectional area.  
 
-The most important file in the repository is the README.md in the root folder of the reposity.
-The headers used in the current README file are the most essential to present. 
-Some optional headers are suggested in curly brackets (...). 
-Try to present only the main information for the viewer to get started. 
-Detailed updates or build instructions are better suited for the subfolders such as `./Docs` or `./Results`.
+Equation (1) predicts a maximum speed,
 
-Next to the README file, a basic folder structure is also presented in this repository. 
-Each subfolder contains a `_readme.md` file that explains the conventions and purpose of that folder for the (future) collaborators to keep it tidy.
+$$
+v(L) = \sqrt{\frac{2 P_0 A L}{m}}
+$$
 
-This template is adjusted to the typical needs of a hardware project made for research or education. 
+which is notably dependent on the length of the barrel, $L$:
 
-```
-.
-|--- Build 
-|--- Docs
-|--- Results
-|--- Software
-| LICENSE
-| README.md
+> “This estimate runs into problems for longer barrels, for which it predicts a speed greater than the speed of sound. The ensuing ‘common-sense correction’ is that the projectile asymptotically approaches the speed of sound.” [1]
 
-```
+The *first-order approximation* that accounts for variable acceleration, obtained from Newton’s second law, predicts:
 
-The purpose of each subfolder is explained below:
-+ Build: Contains all the (binary) design files that are needed for the hardware. Use subfolder for more complex assemblies.
-+ Docs: Contains the documentation of the project: background information, sources, warnings, and build instructions. 
-+ Results: For measurement or functional devices, it is good to report some results as a benchmark for others who try to replicate the project.
-+ Software: For hardware projects that have an operating software or firmware, it is a good versioning practice to separate the software code from build instructions.
+$$
+v_{\text{max}} = \sqrt{a_0 \lambda} = \sqrt{\frac{P_0}{\rho}}
+$$
 
-## Build instructions
-_Guide the reader with the order of browsing your project repository for an optimum building experience_
- 
-When you want to start a new repository, it is better that you copy this repository to your project repository and start by changing all the description.
-All instructions and (sub)headers are suggestions. You can change the style, order, or composition as you see necessary. 
+This equation may look familiar, as it is the same form as the speed of sound:
 
-It would be kind if you put a shortcut to your Bill of Materials file.
-This template can be copied free of charge. 
+$$
+v_s = \sqrt{\frac{\gamma P_0}{\rho}}, \quad \text{where } \gamma = C_p / C_v
+$$
 
-## Outcomes
-_Here you can list the outcomes of the project that you would like to hightlight. It does not need to be an exhaustive list_
+---
 
-We will list some best practices and good examples from projects that have used this template for their documentation.
+## 3. Comparison with Early Experiments
+Comparing these two models with experimental data obtained via PASCO photogates immediately outside the barrel yields the figure below.
 
-## Team
-_Even though platforms such as github show a list of user accounts for contributors for a project or repository, the past contributors or external collaborators also deserve a place here_
+![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/figure1.png)
 
-+ Project initiator: Sanli Faez @sanlifaez
-+ Contributors:
-	+ _add a list of main contributors_
+However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [2]. They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
 
+![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/figure2.png)
 
-## Get involved
-_Especially for open source projects, it is benefitial to motivate the potential users of the project to contribute back or share their feedback. Make it easy for them._
+---
 
-Comments and suggestions on this folder structure are always welcome. Please create an issue to share your feedback or question, or if you prefer send a pull request. 
+## 4. Shock Physics Context (Landau & Lifshitz)
+Having seen this new development, Ayars resolved to improve their experimental methods, but desired to make it a project with multiple students. In the meantime, Buchholtz did more literature research to investigate the theory. He found that Landau & Lifshitz were writing their *Course of Theoretical Physics* in 1944 and published the first edition of Volume 6, *Fluid Mechanics*.  
 
-Better structured projects can explain a number of options for contributors such as: 
-+ (where to start)
-+ (issue template)
-+ (direct contact)
-+ (pull requests)
+In English, the book includes Chapter IX, “Shock Waves” and Chapter X, “One-Dimensional Gas Flow.” Contained within these chapters is a mathematical description of shock and rarefaction waves in a pipe [3,4].
 
-## License
-_After the README, A LICENSE is the most important file in the project documentation. Without a license, there is too much uncertainty to try building anything on top of the original project._
+---
 
-This project is released under CC0 1.0 Universal. 
-You can modify an reuse as you like.
-The project team appreciates your suggestions or examples for enhancing the repository, but your consistent documentation of your project is the best gift to the world. Hopefully, this template could make that a bit easier for you. 
+## 5. Project Continuation at Chico (2019) and Interruptions
+In 2019, a team of researchers was assembled at Chico State with the mission of continuing the work related to the vacuum cannon. Theoretical and experimental progress were made, and simulations were devised. Unfortunately, COVID-19’s emergence compelled the University to shut down, stalling the project.
 
-### (How to cite:)
-_Additionally, you can specify how other can cite your project._
+---
 
-## (Funding)
-_Be kind to your funders and mention their support visibly and consistently. They also need to show their resources are wisely spent._
+## 6. Piston-Driven Designs and Our Build
+Unbeknownst to the other characters in this story, a YouTuber by the username of [NightHawkInLight](https://www.youtube.com/watch?v=0DKWSXstXuc) had developed and prototyped several iterations of vacuum cannon in 2017. It is a more elegant, cost-effective, and scalable design that uses a piston to replace the rear seal, as well as the vacuum pump itself.  
 
-![LPL sharing image](./Docs/Images/lpl_sharing.jpg)
+We became aware of this design shortly before taking the Utrecht Experiment Design course in 2023, and opted to build our own piston-driven version.
+
+![Figure 3: Piston-driven vacuum cannon (thumbnail placeholder from YouTube content by NightHawkInLight).](figures/figure3.png)
+
+Our version did not have a reusable front seal due to parts availability; it uses aluminum foil. It is also slightly different from NightHawkInLight’s designs in being composed of upcycled components, metric sizing, and immediately catching the projectile to minimize danger. The only purchased component is the winch, and the only custom-made component is the piston.
+
+🎥 [Demonstration video of the piston-driven vacuum cannon](https://github.com/FToThe3rdPower/Vacuum-Cannon-II)
+
+---
+
+## 7. Performance
+Unfortunately, the first model imploded partway through its planned service life, as rapid pressure change and shocks degraded the acrylic barrel. We had collected some data at this point, but it was not particularly precise, as the cannon’s performance is faster than our high-speed camera.  
+
+At the maximum setting, with the sensor cropped to the smallest active area that still had enough pixels to image the entire barrel, the ball still appears oblong instead of spherical, which leads to large measurement uncertainty.
+
+---
+
+## 8. Rebuild
+Over the course of the 2024–2025 school year, the broken vacuum cannon was disassembled and parts that could not be reused were disposed of. The piston, winch, and balls that were specifically made or ordered for the project were retained and now operate in the rebuilt cannon.  
+
+The new cannon has been built with aesthetics in mind, as well as durability. The body of the cannon is Trespa while the barrel is aluminum. As we have not upgraded our measurement equipment, we are still unable to measure the ball’s velocity inside of the barrel, so making the barrel out of a non-transparent material is inconsequential.
+
+---
+
+## 9. Outlook
+The most common use for vacuum cannons at universities is as a demo for the public and prospective students at open days. This cannon was designed with this in mind.
+
+![Figure 5: Vacuum Cannon II.](figures/figure5.png)
+
+---
+
+## References
+1. E. Ayars and L. Buchholtz. *Analysis of the vacuum cannon.* *American Journal of Physics,* 2004.  
+2. R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, Jan 2005.  
+3. Лифшиц Е. М. (L. D. Landau Ландау Л. Д. and E. M. Lifshitz). *Механика сплошных сред. Гидродинамика и теория упругости (Continuous Media Mechanics. Hydrodynamics and Theory of Elasticity, “Fluid Mechanics").* Гостехиздат, 1944. [Russian first edition] [Link](http://books.e-heritage.ru/book/10077925).  
+4. L. D. Landau and E. M. Lifshitz. *Fluid Mechanics.* Pergamon Press, 1959. (English translation, likely based on the 1953 edition).  
