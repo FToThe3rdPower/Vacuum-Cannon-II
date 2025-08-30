@@ -52,7 +52,7 @@ $$
 ## 3. Comparison with Early Experiments
 Comparing these two models with experimental data obtained via PASCO photogates immediately outside the barrel yields the figure below.
 
-![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/subsonicModel.ong)
+![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/subsonicModel.png)
 
 However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [2]. They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
 
