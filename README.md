@@ -100,12 +100,12 @@ The new cannon has been built with aesthetics in mind, as well as durability. Th
 ## 9. Outlook
 The most common use for vacuum cannons at universities is as a demo for the public and prospective students at open days. This cannon was designed with this in mind.
 
-![Figure 5: Vacuum Cannon II.](figures/VacCanII.png)
+![Figure 5: Vacuum Cannon II.](figures/VacCanII.jpg)
 
 ---
 
 ## References
 1. E. Ayars and L. Buchholtz. *Analysis of the vacuum cannon.* *American Journal of Physics,* 2004.  
-2. R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, Jan 2005.  
+2. R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, 2005.  
 3. Лифшиц Е. М. (L. D. Landau Ландау Л. Д. and E. M. Lifshitz). *Механика сплошных сред. Гидродинамика и теория упругости (Continuous Media Mechanics. Hydrodynamics and Theory of Elasticity, “Fluid Mechanics").* Гостехиздат, 1944. [Russian first edition](http://books.e-heritage.ru/book/10077925).  
 4. L. D. Landau and E. M. Lifshitz. *Fluid Mechanics.* Pergamon Press, 1959. (English translation, likely based on the 1953 edition).  
