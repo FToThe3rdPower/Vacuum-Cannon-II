@@ -2,7 +2,7 @@
 **Trey Grijalva** 
 
 ![Figure 0: a full cycle of Vacuum Cannon I in slow motion (8.9k fps)](figures/sloMoShot.gif)
-
+This video shows a full cycle of the first Vacuum Cannon prototype. As the piston pulls back from the sealed end of the tube, the rarifaction wave of the blow-by air is responsible for pulling the ball away from the piston slightly. When the piston reaches the back of the tube, the seal is broken, and the resulting shockwave of air filling the vacuum rips the ball away from the piston and accelerates it down the barrel. The pattern on the image is an artifact of converting it from .mps to .gif so it displays on this page properly without exceeding storage limits.
 ---
 
 ## Abstract
