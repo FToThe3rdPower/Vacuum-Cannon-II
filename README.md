@@ -1,7 +1,7 @@
 # Vacuum Cannon: Rebuilt
 **Trey Grijalva** 
 
-![Figure 0: Vacuum Cannon I slow motion (8.9k fps)](figures/sloMoShot.mp4)
+![Figure 0: a full cycle of Vacuum Cannon I in slow motion (8.9k fps)](figures/sloMoShot.gif)
 
 ---
 
