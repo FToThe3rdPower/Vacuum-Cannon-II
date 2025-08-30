@@ -1,6 +1,7 @@
 # Vacuum Cannon: Rebuilt
-**Trey Grijalva**  
-*August 29, 2025*  
+**Trey Grijalva** 
+
+![Figure 0: Vacuum Cannon I slow motion (8.9k fps)](figures/figure0.gif)
 
 ---
 
@@ -94,7 +95,7 @@ At the maximum setting, with the sensor cropped to the smallest active area that
 ## 8. Rebuild
 Over the course of the 2024–2025 school year, the broken vacuum cannon was disassembled and parts that could not be reused were disposed of. The piston, winch, and balls that were specifically made or ordered for the project were retained and now operate in the rebuilt cannon.  
 
-The new cannon has been built with aesthetics in mind, as well as durability. The body of the cannon is Trespa while the barrel is aluminum. As we have not upgraded our measurement equipment, we are still unable to measure the ball’s velocity inside of the barrel, so making the barrel out of a non-transparent material is inconsequential.
+The new cannon has been built with aesthetics in mind, as well as durability. The body of the cannon is [Trespa](https://www.trespa.com/nl_NL/), the barrel is aluminum, and the bolsters are PMMA. As we have not upgraded our measurement equipment, we are still unable to measure the ball’s velocity inside of the barrel, so making the barrel out of a non-transparent material is inconsequential.
 
 ---
 
@@ -108,5 +109,5 @@ The most common use for vacuum cannons at universities is as a demo for the publ
 ## References
 1. E. Ayars and L. Buchholtz. *Analysis of the vacuum cannon.* *American Journal of Physics,* 2004.  
 2. R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, Jan 2005.  
-3. Лифшиц Е. М. (L. D. Landau Ландау Л. Д. and E. M. Lifshitz). *Механика сплошных сред. Гидродинамика и теория упругости (Continuous Media Mechanics. Hydrodynamics and Theory of Elasticity, “Fluid Mechanics").* Гостехиздат, 1944. [Russian first edition] [Link](http://books.e-heritage.ru/book/10077925).  
+3. Лифшиц Е. М. (L. D. Landau Ландау Л. Д. and E. M. Lifshitz). *Механика сплошных сред. Гидродинамика и теория упругости (Continuous Media Mechanics. Hydrodynamics and Theory of Elasticity, “Fluid Mechanics").* Гостехиздат, 1944. [Russian first edition](http://books.e-heritage.ru/book/10077925).  
 4. L. D. Landau and E. M. Lifshitz. *Fluid Mechanics.* Pergamon Press, 1959. (English translation, likely based on the 1953 edition).  
