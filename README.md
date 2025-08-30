@@ -1,7 +1,7 @@
 # Vacuum Cannon: Rebuilt
 **Trey Grijalva** 
 
-![Figure 0: Vacuum Cannon I slow motion (8.9k fps)](figures/figure0.gif)
+![Figure 0: Vacuum Cannon I slow motion (8.9k fps)](figures/sloMoShot.mp4)
 
 ---
 
@@ -52,11 +52,11 @@ $$
 ## 3. Comparison with Early Experiments
 Comparing these two models with experimental data obtained via PASCO photogates immediately outside the barrel yields the figure below.
 
-![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/figure1.png)
+![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/subsonicModel.ong)
 
 However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [2]. They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
 
-![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/figure2.png)
+![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/fig_sclieren_setup.png)
 
 ---
 
@@ -77,11 +77,9 @@ Unbeknownst to the other characters in this story, a YouTuber by the username of
 
 We became aware of this design shortly before taking the Utrecht Experiment Design course in 2023, and opted to build our own piston-driven version.
 
-![Figure 3: Piston-driven vacuum cannon (thumbnail placeholder from YouTube content by NightHawkInLight).](figures/figure3.png)
+![Figure 3: Piston-driven vacuum cannon (thumbnail placeholder from YouTube content by NightHawkInLight).](figures/nighthawkinlightthumbnail.png)
 
 Our version did not have a reusable front seal due to parts availability; it uses aluminum foil. It is also slightly different from NightHawkInLight’s designs in being composed of upcycled components, metric sizing, and immediately catching the projectile to minimize danger. The only purchased component is the winch, and the only custom-made component is the piston.
-
-🎥 [Demonstration video of the piston-driven vacuum cannon](https://github.com/FToThe3rdPower/Vacuum-Cannon-II)
 
 ---
 
@@ -93,7 +91,7 @@ At the maximum setting, with the sensor cropped to the smallest active area that
 ---
 
 ## 8. Rebuild
-Over the course of the 2024–2025 school year, the broken vacuum cannon was disassembled and parts that could not be reused were disposed of. The piston, winch, and balls that were specifically made or ordered for the project were retained and now operate in the rebuilt cannon.  
+Over the course of the 2024–2025 school year, the broken vacuum cannon was disassembled and parts that could not be reused were disposed of. The piston, winch, and balls that were specifically made or ordered for the project were retained and now operate in the rebuilt cannon. Unfortunately, the piston from the first version does not seal as well in the second version's barrel. A new one is needed.
 
 The new cannon has been built with aesthetics in mind, as well as durability. The body of the cannon is [Trespa](https://www.trespa.com/nl_NL/), the barrel is aluminum, and the bolsters are PMMA. As we have not upgraded our measurement equipment, we are still unable to measure the ball’s velocity inside of the barrel, so making the barrel out of a non-transparent material is inconsequential.
 
@@ -102,7 +100,7 @@ The new cannon has been built with aesthetics in mind, as well as durability. Th
 ## 9. Outlook
 The most common use for vacuum cannons at universities is as a demo for the public and prospective students at open days. This cannon was designed with this in mind.
 
-![Figure 5: Vacuum Cannon II.](figures/figure5.png)
+![Figure 5: Vacuum Cannon II.](figures/VacCanII.png)
 
 ---
 
