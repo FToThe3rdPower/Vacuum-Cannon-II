@@ -56,7 +56,7 @@ Comparing these two models with experimental data obtained via PASCO photogates 
 
 However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [2]. They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
 
-![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/fig_sclieren_setup.png)
+![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/fig_schlieren_setup.png)
 
 ---
 
