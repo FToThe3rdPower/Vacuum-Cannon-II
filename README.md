@@ -1,8 +1,9 @@
 # Vacuum Cannon: Rebuilt
 **Trey Grijalva** 
 
+
 ![Figure 0: a full cycle of Vacuum Cannon I in slow motion (8.9k fps)](figures/sloMoShot.gif)
-This video shows a full cycle of the first Vacuum Cannon prototype. As the piston pulls back from the sealed end of the tube, the rarifaction wave of the blow-by air is responsible for pulling the ball away from the piston slightly. When the piston reaches the back of the tube, the seal is broken, and the resulting shockwave of air filling the vacuum rips the ball away from the piston and accelerates it down the barrel. The pattern on the image is an artifact of converting it from .mps to .gif so it displays on this page properly without exceeding storage limits.
+###### This video shows a full cycle of the first Vacuum Cannon prototype. As the piston pulls back from the sealed end of the tube, the rarifaction wave of blow-by air is responsible for pulling the ball away from the piston slightly. When the piston reaches the back of the tube, the seal is broken, and the resulting shockwave of air filling the vacuum rips the ball away from the piston and accelerates it down the barrel. The pattern on the image is an artifact of converting it from .mps to .gif so it displays on this page properly without exceeding storage limits.
 ---
 
 ## Abstract
@@ -11,7 +12,7 @@ The vacuum cannon is a deceptively simple device that accelerates a projectile b
 ---
 
 ## 1. Introduction
-In 2004, two professors at California State University, Chico published the paper *Analysis of the Vacuum Cannon* [1], which explores two simple models and concludes that the ball does not exceed the speed of sound, agreeing with their hypothesis.
+In 2004, two professors at California State University, Chico published the paper *Analysis of the Vacuum Cannon* [[1]](https://physics.csuchico.edu/~eayars/publications/AJP00961.pdf), which explores two simple models and concludes that the ball does not exceed the speed of sound, agreeing with their hypothesis.
 
 ---
 
@@ -33,7 +34,7 @@ $$
 
 which is notably dependent on the length of the barrel, $L$:
 
-> “This estimate runs into problems for longer barrels, for which it predicts a speed greater than the speed of sound. The ensuing ‘common-sense correction’ is that the projectile asymptotically approaches the speed of sound.” [1]
+> “This estimate runs into problems for longer barrels, for which it predicts a speed greater than the speed of sound. The ensuing ‘common-sense correction’ is that the projectile asymptotically approaches the speed of sound.” [[1]](https://physics.csuchico.edu/~eayars/publications/AJP00961.pdf)
 
 The *first-order approximation* that accounts for variable acceleration, obtained from Newton’s second law, predicts:
 
@@ -54,7 +55,7 @@ Comparing these two models with experimental data obtained via PASCO photogates 
 
 ![Figure 1: Comparison of experimental measurements with various models for vacuum cannon velocity.](figures/subsonicModel.png)
 
-However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [2]. They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
+However, the next year, a group from Bethel University in St. Paul, Minnesota, used a much more sophisticated Schlieren imaging setup to image the ball and airflow [[2]](https://pubs.aip.org/aapt/pte/article-pdf/43/1/22/9851374/22\_1\_online.pdf). They found that both of Ayars’ & Buchholtz’s models were underestimating the maximum velocity, as they did not account for the shock physics.
 
 ![Figure 2: Schlieren imaging setup used to study the vacuum cannon flow and projectile.](figures/fig_schlieren_setup.png)
 
@@ -63,7 +64,7 @@ However, the next year, a group from Bethel University in St. Paul, Minnesota, u
 ## 4. Shock Physics Context (Landau & Lifshitz)
 Having seen this new development, Ayars resolved to improve their experimental methods, but desired to make it a project with multiple students. In the meantime, Buchholtz did more literature research to investigate the theory. He found that Landau & Lifshitz were writing their *Course of Theoretical Physics* in 1944 and published the first edition of Volume 6, *Fluid Mechanics*.  
 
-In English, the book includes Chapter IX, “Shock Waves” and Chapter X, “One-Dimensional Gas Flow.” Contained within these chapters is a mathematical description of shock and rarefaction waves in a pipe [3,4].
+In English, the book includes Chapter IX, “Shock Waves” and Chapter X, “One-Dimensional Gas Flow.” Contained within these chapters is a mathematical description of shock and rarefaction waves in a pipe [[3]([http://books.e-heritage.ru/book/10077925)],4].
 
 ---
 
@@ -105,7 +106,7 @@ The most common use for vacuum cannons at universities is as a demo for the publ
 ---
 
 ## References
-1. E. Ayars and L. Buchholtz. *Analysis of the vacuum cannon.* *American Journal of Physics,* 2004.  
-2. R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, 2005.  
+1. [E. Ayars and L. Buchholtz. *Analysis of the vacuum cannon.* *American Journal of Physics,* 2004.](https://physics.csuchico.edu/~eayars/publications/AJP00961.pdf)  
+2. [R. W. Peterson et al. *The ping-pong cannon: A closer look.* *The Physics Teacher,* 43(1):22–25, 2005.](https://pubs.aip.org/aapt/pte/article-pdf/43/1/22/9851374/22\_1\_online.pdf)  
 3. Лифшиц Е. М. (L. D. Landau Ландау Л. Д. and E. M. Lifshitz). *Механика сплошных сред. Гидродинамика и теория упругости (Continuous Media Mechanics. Hydrodynamics and Theory of Elasticity, “Fluid Mechanics").* Гостехиздат, 1944. [Russian first edition](http://books.e-heritage.ru/book/10077925).  
-4. L. D. Landau and E. M. Lifshitz. *Fluid Mechanics.* Pergamon Press, 1959. (English translation, likely based on the 1953 edition).  
+4. L. D. Landau and E. M. Lifshitz. *Fluid Mechanics.* Pergamon Press, 1959. [English translation, likely based on the 1953 edition].  
